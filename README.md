@@ -1,14 +1,26 @@
 # django-start-env
-This is collection of scrips which runs Django Development environment &amp; related things with one command.
+This is collection of scrips which runs Django Development environment &amp; related things with one command. 
+It will start the following items in different guake shells:
+- Django server
+- Django shell
+- Recent error log
+- Redis server
+
+You can choose the from these or add you own by editing `start_django_dev.sh` file
 
 ## Installation
-Set the DJANGO_PROJECT & SCRIPT_FOLDER location in settings.cfg
+This project depends on guake so install guake
+```shell
+sudo apt-get install guake
+```
+Set the `DJANGO_PROJECT` & `SCRIPT_FOLDER` location in `settings.cfg`
+Set the location of django project and environment in shell files inside `shell_script` filder.
 
-change location of django project & virtual env in the start scripts
-
-add imports.py in the django Project folder
+add imports.py in the django Project folder. 
 
 run by
-```
+```shell
   ./start_django_dev.sh
 ```
+
+A sample shell file to connect to a remove server has also been added in the `shell_script` folder.
