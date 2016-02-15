@@ -6,15 +6,14 @@ It will start the following items in different guake shells:
 - Recent error log
 - Redis server
 
-You can choose the from these or add you own by editing `start_django_dev.sh` file
+You can choose the from these,remove or add you own by editing `start_django_dev.sh` file
 
 ## Installation
 This project depends on guake so install guake
 ```shell
 sudo apt-get install guake
 ```
-Set the `DJANGO_PROJECT` & `SCRIPT_FOLDER` location in `settings.cfg`
-Set the location of django project and environment in shell files inside `shell_script` filder.
+Set the folder location of django project `DJANGO_PROJECT` & Virtual Environment folder `VIRTUAL_ENV` location in `settings.cfg`
 
 add imports.py in the django Project folder. 
 
