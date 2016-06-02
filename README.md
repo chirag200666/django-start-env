@@ -23,3 +23,6 @@ run by
 ```
 
 A sample shell file to connect to a remove server has also been added in the `shell_script` folder.
+## TODO
+- fix the current bug where django project root is not read properly
+- add support for tmux
