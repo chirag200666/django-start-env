@@ -19,10 +19,9 @@ add imports.py in the django Project folder.
 
 run by
 ```shell
-  ./start_django_dev.sh
+  sh start_django_dev.sh
 ```
 
 A sample shell file to connect to a remove server has also been added in the `shell_script` folder.
 ## TODO
-- fix the current bug where django project root is not read properly
 - add support for tmux
